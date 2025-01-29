@@ -2,7 +2,7 @@
 
 
 int main() {
-    double a;
+    long a;
     scanf("%ld",&a);
     printf("You entered: %ld", a);
     return 0;
