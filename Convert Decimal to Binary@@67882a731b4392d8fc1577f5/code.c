@@ -8,7 +8,7 @@ int main() {
     temp = 1;
     while(temp*2 <= a) 
         {temp*=2;}
-    int ans = 0;
+    long long ans = 0;
     while(temp != 0)
     {
         int q = a/temp;
@@ -16,6 +16,6 @@ int main() {
         a = a - (q*temp);
         temp = temp/2;
     }
-    printf("%d", ans);
+    printf("%lld", ans);
     return 0;
 }
