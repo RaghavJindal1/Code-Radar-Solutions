@@ -12,7 +12,7 @@ int main() {
     while(temp != 0)
     {
         int q = a/temp;
-        ans = ans*10 + q;
+        ans = (ans*10 )+ q;
         a = a - (q*temp);
         temp = temp/2;
     }
