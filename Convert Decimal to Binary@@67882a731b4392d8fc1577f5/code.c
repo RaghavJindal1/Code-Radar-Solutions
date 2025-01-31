@@ -14,7 +14,7 @@ int main() {
         int q = a/temp;
         ans = ans*10 + q;
         a = a - (q*temp);
-        temp /= 2;
+        temp = temp/2;
     }
     printf("%d", ans);
     return 0;
