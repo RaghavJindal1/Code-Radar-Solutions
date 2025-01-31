@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &a);
     temp = 1;
     while(temp*2 <= a) 
-        temp*=2;
+        {temp*=2;}
     int ans = 0;
     while(temp != 0)
     {
