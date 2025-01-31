@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     unsigned a, count = 0;
-    scanf("%d", &a);
+    scanf("%u", &a);
     while( a|1 != 1)
     {
         count++;
