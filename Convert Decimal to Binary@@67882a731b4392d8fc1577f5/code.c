@@ -5,7 +5,7 @@
 int main() {
     int a;
     scanf("%d", &a);
-    temp = 1;
+    int temp = 1;
     while(temp*2 <= a) 
         {temp*=2;}
     long long ans = 0;
