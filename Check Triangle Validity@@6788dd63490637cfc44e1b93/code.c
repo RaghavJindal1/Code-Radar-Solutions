@@ -3,9 +3,9 @@
 int isTriangle(int a,int b, int c)
 {
     int flag = 1;
-    if((a+b) < c) flag = 0;
-    else if((a+c) < b) flag =0;
-    else if((b+c) < a) flag = 0;
+    if((a+b) <= c) flag = 0;
+    else if((a+c) <= b) flag =0;
+    else if((b+c) <= a) flag = 0;
     return flag;
 }
 
