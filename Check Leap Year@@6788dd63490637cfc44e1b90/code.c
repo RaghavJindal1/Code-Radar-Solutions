@@ -10,6 +10,6 @@ int main() {
   int year;
   scanf("%d", &year);
   if(isLeapYear(year)) printf("Leap Year");
-  else printf("Not a Lea[ Year");
+  else printf("Not a Leap Year");
 
 }
