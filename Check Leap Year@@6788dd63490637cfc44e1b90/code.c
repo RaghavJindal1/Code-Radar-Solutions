@@ -9,7 +9,7 @@ int isLeapYear(int n)
 int main() {
   int year;
   scanf("%d", &year);
-  if(isLeapYear(n)) printf("Leap Year");
+  if(isLeapYear(year)) printf("Leap Year");
   else printf("Not a Lea[ Year");
 
 }
