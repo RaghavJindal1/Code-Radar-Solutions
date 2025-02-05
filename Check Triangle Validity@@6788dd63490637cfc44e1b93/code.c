@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int isTriangle(int a,b,c)
+int isTriangle(int a,int b, int c)
 {
     int flag = 1;
     if((a+b) < c) flag = 0;
