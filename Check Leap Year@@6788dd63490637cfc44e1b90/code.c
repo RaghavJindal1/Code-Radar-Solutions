@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
 int isLeapYear(int n)
 {
     if(n % 400 == 0) return 1;
