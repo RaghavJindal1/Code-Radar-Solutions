@@ -10,5 +10,6 @@ int main() {
     if(num1 % 15 == 0) printf("Divisible by Both");
     else if(num1 % 3 == 0) printf("Divisible by 3");
     else if(num1 % 5 == 0) printf("Divisible by 5");
+    else printf("Not Divisible");
     return 0;
 }
