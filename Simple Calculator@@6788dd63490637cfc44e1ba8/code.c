@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    char ch;
-    scanf("%c", &ch);
+    char ch; int a,b;
+    scanf("%d %d %c", &a, &b, &ch);
     switch (ch)
       {
       case '+':
