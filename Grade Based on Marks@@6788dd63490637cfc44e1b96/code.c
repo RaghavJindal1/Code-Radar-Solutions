@@ -11,8 +11,10 @@ int main() {
         printf("A");
     else if(marks >= 80)
         printf("B");
-    else if(marks >= 60 && marks < 70)
+    else if(marks >= 70)
         printf("C");
+    else if(marks >= 60)
+        printf("D");
     else printf("F");
     return 0;
 }
