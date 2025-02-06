@@ -21,7 +21,7 @@ int main() {
       case '/':
             if(b == 0)
             {
-              printf("the ans is undefined or infinity as number is being divided by zero\n");break;
+              printf("Error");break;
             }
             printf("%d", a / b);
             break;
