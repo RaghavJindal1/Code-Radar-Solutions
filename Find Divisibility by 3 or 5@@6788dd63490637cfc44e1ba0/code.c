@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
+int main() {
+    int num1;
+    scanf("%d", &num1);
+    if(num1 % 15 == 0) printf("Divisible by Both");
+    else if(num1 % 3 == 0) printf("Divisible by 3");
+    else if(num1 % 5 == 0) printf("Divisible by 5");
+    return 0;
+}
