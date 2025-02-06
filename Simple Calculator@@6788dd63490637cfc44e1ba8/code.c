@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char ch;
     scanf("%c", &ch);
-    switch (op)
+    switch (ch)
       {
       case '+':
             printf("sum of a and b is: %.2f\n", a + b);
