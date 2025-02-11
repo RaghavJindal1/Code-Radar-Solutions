@@ -4,7 +4,7 @@
 int main() {
     int n;
     scanf("%d", &n);
-    rep(i,1,2n-1)
+    rep(i,1,2*n-1)
     {
         rep(j,0,i%n)
             printf(" ");
