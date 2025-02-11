@@ -10,7 +10,7 @@ int main() {
         {
             printf(" ");
         }
-        rep(j,0,i+2)
+        rep(j,0,i)
         {
             printf("*");
         }
