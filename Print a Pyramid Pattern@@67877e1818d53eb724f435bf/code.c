@@ -4,7 +4,7 @@
 int main() {
     int n;
     scanf("%d", &n);
-    rep(i,0,n+1)
+    rep(i,0,n)
     {   int temp = (n-i);
         while(temp--)
         {
