@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n);
     rep(i,1,n+1)
     {   
-        rep(j,0,(n-2*i))
+        rep(j,0,(n-i))
             printf(" ");
         rep(k,0,2*i-1)
             printf("*");
