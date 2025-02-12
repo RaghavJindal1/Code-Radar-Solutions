@@ -8,7 +8,7 @@ int main()
     {   rep(k,0,n-i)
             printf(" ");
         int count = 1;
-        rep(j,1,2*i-1)
+        rep(j,0,2*i-1)
         {   if(count>i) count = 1;
             printf("%d",count);
             count++;
