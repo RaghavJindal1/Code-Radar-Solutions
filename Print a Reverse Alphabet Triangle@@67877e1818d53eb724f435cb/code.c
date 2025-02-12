@@ -8,7 +8,7 @@ int main()
     {   char ch = 'A';
         rep(j,i,n)
         {
-            printf("%c",ch);
+            printf("%c ",ch);
             ch++;
         }
         printf("\n");
