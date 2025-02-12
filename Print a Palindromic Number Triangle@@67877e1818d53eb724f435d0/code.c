@@ -8,12 +8,16 @@ int main()
     {   rep(k,0,n-i)
             printf(" ");
         int count = 1;
+        int flag = 1;
         rep(j,0,2*i-1)
         {   
             printf("%d",count);
-            count ++;
-            if(count > i) count--;
-            
+            if(count < i && flag) count++;
+            else 
+            {
+                count--;
+                flag = 0;
+            } 
         }
         printf("\n");
     }
