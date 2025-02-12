@@ -9,7 +9,7 @@ int main()
     {
         rep(j,0,i)
         {
-            printf("%d ",n);
+            printf("%d ",num);
             num = (!num);
         }
         printf("\n");
