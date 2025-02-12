@@ -7,7 +7,7 @@ int updater(int n, int i)
 }
 int updater2(int n, int i)
 {
-    if(i > n) return (i - n)+2;
+    if(i > n) return n*2-i+1;
     else return i*2-1;
 }
 int main() {
