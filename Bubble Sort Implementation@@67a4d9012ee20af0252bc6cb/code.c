@@ -13,7 +13,7 @@ void bubbleSort(int arr[], int n)
             }
         }
     }
-    return arr;
+    
 }
 void printArray(int arr[], int n)
 {
