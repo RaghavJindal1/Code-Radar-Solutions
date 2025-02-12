@@ -17,7 +17,7 @@ int main() {
     {
      rep(j,0,updater(n,i))
         printf(" ");
-     rep(k,0,updater2(n,i)+2)
+     rep(k,0,updater2(n,i)*2-1)
         printf("*");
      printf("\n");
     }
