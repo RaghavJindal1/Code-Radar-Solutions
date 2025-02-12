@@ -8,7 +8,7 @@ int main()
     {
         rep(j,1,2*n-i)
             printf("%d",j);
-        printf('\n')
+        printf("\n");
     }
 
 
