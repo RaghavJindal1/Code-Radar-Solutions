@@ -1,27 +1,9 @@
-#include<stdio.h>
-#include<stdlib.h>
-#define rep(i,a,b) for(int i = a;i<b;i++)
-void bubbleSort(int arr[], int n);
-void printArray(int arr[], int n);
-int main()
-{
-    int n;
-    scanf("%d", &n);
-    int *arr = (int*)malloc(n*sizeof(int));
-    rep(i,0,n)
-    {
-        scanf("%d", &arr[i]);
-    }
-    bubbleSort(arr, n);    
-    printArray(arr, n);
-    free(arr);
-    return 0;
-}
+
 void bubbleSort(int arr[], int n)
 {
-    rep(i,1,n)
+    for(int i = 1;i<n;i++)
     {
-        rep(k,0,n-i)
+        for(int k =0;k<n-i;k++)
         {
             if(arr[k] > arr[k+1])
             {
@@ -34,7 +16,7 @@ void bubbleSort(int arr[], int n)
 }
 void printArray(int arr[], int n)
 {
-    rep(i,0,n)
+    for(int i =0;i<n;i++)
     {
         printf("%d ",arr[i]);
     }
