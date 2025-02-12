@@ -6,7 +6,7 @@ int main()
     scanf("%d", &n);
     rep(i,1,n+1)
     {   int count = 1;
-        rep(j,1,n+1)
+        rep(j,i,n+1)
             {printf("%d ",count); count++;}
         printf("\n");
     }
