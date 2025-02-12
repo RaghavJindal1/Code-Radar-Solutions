@@ -1,5 +1,5 @@
 
-int *arr bubbleSort(int arr[], int n)
+int *bubbleSort(int arr[], int n)
 {
     for(int i = 1;i<n;i++)
     {
@@ -15,11 +15,11 @@ int *arr bubbleSort(int arr[], int n)
     }
     return arr;
 }
-int *arr printArray(int arr[], int n)
-{
-    for(int i =0;i<n;i++)
-    {
-        printf("%d ",arr[i]);
-    }
-}
+// int *printArray(int arr[], int n)
+// {
+//     for(int i =0;i<n;i++)
+//     {
+//         printf("%d ",arr[i]);
+//     }
+// }
 
