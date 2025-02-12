@@ -11,7 +11,7 @@ int main()
         int count = 1;
         rep(k,0,i)
         {
-            printf("%d",count);
+            printf("%d ",count);
             count++;
         }
     }
