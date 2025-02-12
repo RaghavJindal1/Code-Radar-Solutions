@@ -10,9 +10,9 @@ int main()
         int count = 1;
         rep(j,0,2*i-1)
         {   
-            printf("%d",count);
             if(count > i) count--;
             else count++;
+            printf("%d",count);
         }
         printf("\n");
     }
