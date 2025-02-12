@@ -11,8 +11,9 @@ int main()
         rep(j,0,2*i-1)
         {   
             printf("%d",count);
+            count ++;
             if(count > i) count--;
-            else count++;
+            
         }
         printf("\n");
     }
