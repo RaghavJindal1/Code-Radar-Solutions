@@ -1,0 +1,16 @@
+#include<stdio.h>
+#define rep(i,a,b) for(int i = a; i<b; i++)
+int main()
+{
+    int n;
+    printf("%d", &n);
+    rep(i,1,n+1)
+    {
+        rep(j,1,2*n-i)
+            printf("%d",j)
+        printf("\n");
+    }
+
+
+    return 0;
+}
