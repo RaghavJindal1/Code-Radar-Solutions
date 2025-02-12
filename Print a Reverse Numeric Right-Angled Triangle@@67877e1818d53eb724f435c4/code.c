@@ -3,7 +3,7 @@
 int main()
 {
     int n;
-    printf("%d", &n);
+    scanf("%d", &n);
     rep(i,1,n+1)
     {   int count = 1;
         rep(j,i,n+1)
