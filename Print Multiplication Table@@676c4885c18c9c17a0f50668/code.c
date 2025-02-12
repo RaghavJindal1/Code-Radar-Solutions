@@ -6,7 +6,7 @@ int main()
     scanf("%d", &n);
     rep(i,1,11)
     {
-        printf("%d X %d = %d\n",n,i,n*i);
+        printf("%d x %d = %d\n",n,i,n*i);
     }
         
     
