@@ -14,7 +14,7 @@ int main()
     }
     bubbleSort(arr, n);    
     printArray(arr, n);
-
+    free(arr);
     return 0;
 }
 void bubbleSort(int arr[], int n)
