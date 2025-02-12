@@ -18,7 +18,7 @@ int main()
 }
 void bubbleSort(int arr[], int n)
 {
-    rep(i,1,n+1)
+    rep(i,1,n)
     {
         rep(k,0,n-i)
         {
