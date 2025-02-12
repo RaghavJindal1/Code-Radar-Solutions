@@ -5,7 +5,11 @@ int main()
     int n;
     scanf("%d", &n);
     rep(i,1,n+1)
-    {   int num = 1;
+    {   rep(k,0,n-i)
+        {
+            printf(" ");
+        }
+        int num = 1;
         rep(j,0,i)
         {
             printf("%d ", num);
