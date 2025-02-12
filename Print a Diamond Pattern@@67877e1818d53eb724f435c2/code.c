@@ -7,8 +7,8 @@ int updater(int n, int i)
 }
 int updater2(int n, int i)
 {
-    if(i > n) return i - n;
-    else return i;
+    if(i > n) return (i - n)*2+1;
+    else return i*2-1;
 }
 int main() {
     int n;
@@ -17,7 +17,7 @@ int main() {
     {
      rep(j,0,updater(n,i))
         printf(" ");
-     rep(k,0,updater2(n,i)*2-1)
+     rep(k,0,updater2(n,i))
         printf("*");
      printf("\n");
     }
