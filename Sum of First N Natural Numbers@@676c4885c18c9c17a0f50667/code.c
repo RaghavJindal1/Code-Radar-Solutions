@@ -6,7 +6,7 @@ int main()
     scanf("%d", &n);
     int sum = 0;
     rep(i,1,n+1)
-        {sum += i;}
+        sum += i;
     printf("%d",sum);
         
     
@@ -15,4 +15,4 @@ int main()
 
 
     return 0;
-}.
+}
