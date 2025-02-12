@@ -4,7 +4,7 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    count = 1;
+    int count = 1;
     rep(i,1,n+1)
     {
         rep(j,0,i)
