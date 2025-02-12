@@ -1,5 +1,5 @@
 
-int *bubbleSort(int arr[], int n)
+void bubbleSort(int arr[], int n)
 {
     for(int i = 1;i<n;i++)
     {
@@ -15,7 +15,7 @@ int *bubbleSort(int arr[], int n)
     }
     return arr;
 }
-int *printArray(int arr[], int n)
+void printArray(int arr[], int n)
 {
     for(int i =0;i<n;i++)
     {
