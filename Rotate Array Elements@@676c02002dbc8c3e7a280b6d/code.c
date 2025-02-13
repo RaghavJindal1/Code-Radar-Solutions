@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     int n;
@@ -9,7 +8,14 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-
+    int k;
+    scanf("%d", &k);
+    int temp[n];
+    for(int i = 0; i<n ;i++)
+    {
+        temp[i] = arr[i % k];
+        printf("%d\n",temp[i]); 
+    }
 
 
     return 0;
